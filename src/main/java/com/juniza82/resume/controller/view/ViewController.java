@@ -23,9 +23,9 @@ public class ViewController {
         return "resume";
     }
 
-    @GetMapping("/viewToContent")
+    @GetMapping("/viewToContact")
     public String viewToContent() {
-        return "content";
+        return "contact";
     }
 
     @GetMapping("/viewToProjects")

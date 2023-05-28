@@ -4,12 +4,12 @@ server:
     use-relative-redirects: true  # Spring Boot 에서 페이지 리다이렉트 시 https에서 http로 리다이텍트 되어 페이지 오류가 가는 부분 수정
 
 spring:
-  thymeleaf:
-    prefix: classpath:/templates/thymeleaf/
-    check-template: true
-    suffix: .html
-    mode: HTML
-    cache: false # default true, 개발 시에는 false로 두는 것이 좋음.
+#  thymeleaf:
+#    prefix: classpath:/templates/thymeleaf/
+#    check-template: true
+#    suffix: .mustache
+#    mode: HTML
+#    cache: false # default true, 개발 시에는 false로 두는 것이 좋음.
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://juniza82.synology.me:33077/myhome?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull

@@ -21,10 +21,10 @@ repositories {
 dependencies {
     implementation('org.springframework.boot:spring-boot-starter-data-jdbc')
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
-    implementation('org.springframework.boot:spring-boot-starter-thymeleaf')
+    implementation('org.springframework.boot:spring-boot-starter-mustache')
     implementation('org.springframework.boot:spring-boot-starter-web')
 
-    runtimeOnly('com.mysql:mysql-connector-j')  // MySQL8.0.31 버전이상 : 'com.mysql:mysql-connector-java' 8 버전 이하
+    runtimeOnly('com.mysql:mysql-connector-j')  // MySQL8.0.31 버전이상 : 'com.mysql:mysql-connector-java' 8 버전 이
 //    runtimeOnly('com.h2database:h2')
 
     annotationProcessor('org.projectlombok:lombok')
