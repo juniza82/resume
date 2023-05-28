@@ -1,4 +1,4 @@
-package com.juniza82.resume.books.controller;
+package com.juniza82.resume.books.controller.rest;
 
 import com.juniza82.resume.domain.books.Posts;
 import com.juniza82.resume.dto.books.PostsSaveRequestDto;

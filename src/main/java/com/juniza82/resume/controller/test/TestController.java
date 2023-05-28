@@ -1,4 +1,4 @@
-package com.juniza82.resume.controller;
+package com.juniza82.resume.controller.test;
 
 import com.juniza82.resume.domain.TestResponseDomain;
 import org.springframework.web.bind.annotation.GetMapping;
