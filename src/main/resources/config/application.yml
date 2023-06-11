@@ -1,7 +1,12 @@
+
+
 server:
   port: 8090
   tomcat:
     use-relative-redirects: true  # Spring Boot 에서 페이지 리다이렉트 시 https에서 http로 리다이텍트 되어 페이지 오류가 가는 부분 수정
+  servlet:
+    encoding:
+      force-response: true
 
 spring:
 #  thymeleaf:
